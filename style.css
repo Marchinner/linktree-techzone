@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Neue Machina';
+    src: local('Neue Machina Ultra bold'), local('Neue-Machina-Ultra-bold'),
+        url('./font/NeueMachina-Ultrabold.woff2') format('woff2'),
+        url('./NeueMachina-Ultrabold.woff') format('woff'),
+        url('./NeueMachina-Ultrabold.ttf') format('truetype');
+}
+
+body {
+    margin: 4em 2em;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color: #362C47;
+    font-family: 'Neue Machina';
+    font-weight: 800;
+    font-style: normal;
+  }
+  .tree {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+  }
+  .tree .username {
+    font-weight: 600;
+    margin: 2em;
+  }
+  .tree .links a {
+    margin: 0.75em auto;
+  }
+  .tree .footer {
+    margin: 2rem;
+  }
+  .tree .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  a.btn {
+    background-color: #7766A6;
+    color: #27F4CD;
+    border: 1px solid #00E0B7;
+    transition: border 0.2s ease;
+  }
+  a.btn:hover {
+    border: 5px solid #27F4CD;
+    cursor: pointer;
+  }
